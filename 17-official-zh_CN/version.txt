@@ -1,0 +1,12 @@
+Package: 17 original Simplified Chinese
+Version: VMware Workstation 17.6.4 build-24832109
+Architecture: x86 (PE machine 0x014C)
+Source: official VMware-workstation-full-17.6.4-24832109.exe, messages\zh_CN
+Files:
+  vmui-zh_CN.dll       official UI resources, unmodified
+  vmappsdk-zh_CN.dll   official SDK resources, unmodified
+  vmware.vmsg          official message catalog, unmodified
+  vmware-tray.exe      official 17.6.4 tray program (optional tray replacement)
+Notes:
+  - Only for VMware Workstation 17.x x86 installs; deploy.ps1 blocks other architectures.
+  - The tray executable is optional; the three resource files provide the language pack.

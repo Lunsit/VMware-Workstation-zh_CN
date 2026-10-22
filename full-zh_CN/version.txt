@@ -1,0 +1,12 @@
+Package: full Simplified Chinese
+Version: VMware Workstation 26H1u1, 26.0.1 build-25688693
+Architecture: x64 (PE machine 0x8664)
+Files:
+  vmui-zh_CN.dll       17.6.4 official zh_CN resources transplanted onto the 26H1u1 x64 resource shell
+  vmappsdk-zh_CN.dll   17.6.4 official zh_CN resources transplanted onto the 26H1u1 x64 resource shell
+  vmware.vmsg          merged catalog for 26H1u1, 7379 keys, 85 new keys translated
+  vmware-tray.exe      26H1u1 x64 tray with official 17.6.4 zh_CN resources patched into slot 2052
+Notes:
+  - Only for VMware Workstation 26.x x64 installs; deploy.ps1 blocks other architectures.
+  - Resource transplanting invalidates the original signatures; unsigned binaries are expected.
+  - Verified on 26.0.1 build 25688693. Minor build differences are allowed with a warning.
