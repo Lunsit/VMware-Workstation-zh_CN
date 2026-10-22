@@ -63,4 +63,9 @@ Backups remain in `backup\`. To restore a backup manually, copy files from its `
 - The 17 and 26 packages are not interchangeable: 17 uses x86 binaries, 26H1u1 uses x64 binaries.
 - Upgrade VMware before redeploying. If an upgrade leaves stale language files, restore first or reinstall the application.
 - Scripts target Windows PowerShell 5.1 and are stored as UTF-8 with BOM.
-- Tested on Windows 10.0.26100 x64 with VMware Workstation 26H1u1 (26.0.1 build 25688693).
+- Tested on Windows 11 (build 26100) x64 with VMware Workstation 26H1u1 (26.0.1 build 25688693).
+
+## Disclaimer
+
+The localization resources are extracted or derived from VMware Workstation installers and remain VMware's property. Use them only with a licensed local VMware Workstation installation. This project is not affiliated with Broadcom or VMware.
+
